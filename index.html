@@ -10,6 +10,7 @@
     <h1>Basic Form</h1>
 
     <form>
+
         <label for="name">Username:</label>
         <input type="text" id="name" name="name">
 
@@ -20,37 +21,69 @@
 
         <br><br>
 
-        <label for="password">Phone Number:</label>
+        <label for="phone">Phone Number:</label>
         <input type="text" id="phone" name="phone">
 
         <br><br>
-        
-        <label for="name">Enter Password:</label>
+
+        <label for="password">Enter Password:</label>
         <input type="password" id="password" name="password">
 
         <br><br>
-        
-        <label for="name">Confirm Password:</label>
+
+        <label for="confirmPass">Confirm Password:</label>
         <input type="password" id="confirmPass" name="confirmPass">
 
         <br><br>
 
-        <label for="name">Gender:</label>
-        <input type="radio button" id="gender" name="gender">
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="male">Other</label>
 
         <br><br>
 
-        <label for="name">Age Group:</label>
-        <input type="dropdown menu" id="age" name="age">
+        <label for="age">Age Group:</label>
+        <select id="age" name="age">
+            <option value="blank"></option>
+            <option value="under18">< 21 years old</option>
+            <option value="18-30">21 - 25 years old</option>
+            <option value="31-50">26 - 35 years old</option>
+            <option value="31-50">36 - 50 years old</option>
+            <option value="51+">> 50 years old</option>
+        </select>
 
         <br><br>
 
-        <label for="name">Favorite Music Group:</label>
-        <input type="checkbox" id="music" name="music">
+        <label>Favorite Music Group:</label>
+
+        <input type="checkbox" id="pop" name="music" value="pop">
+        <label for="pop">Pop</label>
+
+        <input type="checkbox" id="pop" name="music" value="Hip-Hop">
+        <label for="pop">Hip-Hop</label>
+        
+        <input type="checkbox" id="pop" name="music" value="Jazz">
+        <label for="pop">Jazz</label>
+
+        <input type="checkbox" id="rock" name="music" value="rock">
+        <label for="rock">Rock</label>
+
+        <input type="checkbox" id="pop" name="music" value="classical">
+        <label for="pop">Classical Music</label>
+
+        <input type="checkbox" id="rap" name="music" value="Country">
+        <label for="rap">Country</label>
 
         <br><br>
 
         <input type="submit" value="Submit">
+
     </form>
 
 </body>
