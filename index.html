@@ -7,9 +7,9 @@
 
 <body>
 
-    <h1>Basic Form</h1>
+    <h1>Registration Form</h1>
 
-    <form>
+    <form id = myform>
 
         <label for="name">Username:</label>
         <input type="text" id="name" name="name" required>
@@ -65,24 +65,25 @@
         <input type="checkbox" id="pop" name="music" value="pop" required>
         <label for="pop">Pop</label>
 
-        <input type="checkbox" id="pop" name="music" value="Hip-Hop">
+        <input type="checkbox" id="hiphop" name="music" value="Hip-Hop">
         <label for="pop">Hip-Hop</label>
         
-        <input type="checkbox" id="pop" name="music" value="Jazz">
+        <input type="checkbox" id="jazz" name="music" value="Jazz">
         <label for="pop">Jazz</label>
 
         <input type="checkbox" id="rock" name="music" value="rock">
         <label for="rock">Rock</label>
 
-        <input type="checkbox" id="pop" name="music" value="classical">
+        <input type="checkbox" id="classical" name="music" value="classical">
         <label for="pop">Classical Music</label>
 
-        <input type="checkbox" id="rap" name="music" value="Country">
+        <input type="checkbox" id="country" name="music" value="Country">
         <label for="rap">Country</label>
 
         <br><br>
 
-        <input type="submit" value="Submit">
+        <input type="submit" id="submitButton" value="Submit">
+        <input type="reset" id="clearButton" value="Clear">
 
     </form>
 
